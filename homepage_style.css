@@ -16,6 +16,7 @@ header {
     font-family: 'Agbalumo';font-size: 22px;
     font-size: 200%;
     text-align: left;
+    display: inline-block;
 }
 
 .header_links {
@@ -24,4 +25,5 @@ header {
     font-size: 200%;
     text-align: right;
     align-content: right;
+    display: inline-block;
 }

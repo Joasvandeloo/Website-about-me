@@ -1,0 +1,12 @@
+# Check what's changed
+git status
+
+# Stage your changes
+git add .                # everything
+git add filename.js      # just one file
+
+# Commit with a message
+git commit -m "Add login form validation"
+
+# Push to GitHub
+git push
