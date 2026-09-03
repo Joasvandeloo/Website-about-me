@@ -19,3 +19,7 @@ header {
     align-items: bottom;
     gap: 30px;
 }
+
+body {
+    display: grid;
+}
