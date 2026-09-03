@@ -9,21 +9,18 @@ header {
     top: 0;
     position: relative;
     margin: 0px;
+    font-family: Agbalumo;
+    font-size: 30px;
+    color: rgb(100, 100, 255);
+    display: flex;
+    align-items: bottom;
 }
 
-.logo {
-    color: rgb(200, 200, 255);
-    font-family: 'Agbalumo';font-size: 22px;
-    font-size: 200%;
-    text-align: left;
-    display: inline-block;
-}
-
-.header_links {
-    color: rgb(200, 200, 255);
-    font-family: 'Agbalumo';font-size: 22px;
-    font-size: 200%;
-    text-align: right;
-    align-content: right;
-    display: inline-block;
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
 }
