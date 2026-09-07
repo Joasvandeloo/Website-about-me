@@ -1,0 +1,32 @@
+h1 {
+  color: rgb(255, 100, 100);
+  text-align: left;
+  font-family: Agbalumo;
+}
+h2 {
+    color: rgb(255, 100, 100);
+    font-family: Agbalumo;
+}
+
+h3 {
+    color: rgb(200, 50, 50)
+}
+
+body {
+    background-color: rgb(255, 200, 200);
+}
+
+header {
+    background-color: rgb(140, 0, 0);
+    padding-top: -1px;
+    top: 0;
+    position: relative;
+    margin: 0px;
+    font-family: Agbalumo;
+    font-size: 30px;
+    color: rgb(255, 100, 100);
+    display: flex;
+    align-items: bottom;
+    gap: 30px;
+    border-radius: 50px;
+}
