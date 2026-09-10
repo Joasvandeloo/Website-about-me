@@ -16,6 +16,13 @@ body {
     background-color: rgb(200, 200, 255);
 }
 
+li {
+    color: rgb(50, 50, 200);
+    text-align: left;
+    font-family: Agbalumo;
+    font-size: 150%;
+}
+
 header {
     background-color: rgb(0, 0, 140);
     padding-top: -1px;
@@ -72,4 +79,18 @@ table ,th ,td{
     font-family: Agbalumo;
     grid-column-start: 1;
     grid-column-end: 5;
+    grid-template-columns: repeat(6, 1fr);
+    display: grid;
+    gap: 20px;
+    padding-top: 100px;
+}
+
+.my_hobbies {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: rgb(150, 150, 255);
+    border-radius: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 15px;
 }
