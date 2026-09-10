@@ -13,6 +13,13 @@ h3 {
     color: rgb(200, 50, 50)
 }
 
+li {
+    color: rgb(200, 50, 50);
+    text-align: left;
+    font-family: Agbalumo;
+    font-size: 125%;
+}
+
 body {
     background-color: rgb(255, 200, 200);
 }
@@ -47,16 +54,9 @@ header {
     padding: 30px;
 }
 
-.future {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    background-color: rgb(255, 170, 170);
-    border-radius: 50px;
-    padding: 30px;
-    border-spacing: 50px;
-}
-
-.tease {
-    grid-column-start: 3;
-    grid-column-end: 6;
+.characters {
+    background-color: rgb(255, 150, 150);
+    gap: 15px;
+    padding: 15px;
+    border-radius: 30px;
 }
