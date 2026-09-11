@@ -56,7 +56,7 @@ table ,th ,td{
     grid-column-start: 1;
     grid-column-end: 5;
     grid-template-columns: repeat(4, 1fr);
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .about_me_text {
@@ -82,7 +82,7 @@ table ,th ,td{
     grid-template-columns: repeat(6, 1fr);
     display: grid;
     gap: 20px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .my_hobbies {
